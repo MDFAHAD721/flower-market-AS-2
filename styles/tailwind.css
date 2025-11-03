@@ -1,0 +1,48 @@
+@import "tailwindcss"
+
+/*  NOTO SERIF FONT  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* INTER FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* NEWSLETTER SECTION STYLES */
+.newsletter-section{
+  background-image: url(../images/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bloom-plant-container{
+  background: linear-gradient(to top , rgba(0, 0, 0, 0.4)) , url(../images/deal-bloom.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
+.ana-plant-container{
+  background: linear-gradient(to top , rgba(0, 0, 0, 0.4)) , url(../images/deal-ana.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
+.zabo-plant-container{
+  background: linear-gradient(to top , rgba(0, 0, 0, 0.4)) , url(../images/deal-zabo.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
