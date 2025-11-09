@@ -21,13 +21,19 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-/* NEWSLETTER SECTION STYLES */
-.newsletter-section{
-  background-image: url(../images/news-letter-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+/* COMMON STYLES */
+.black{
+  color: #000000;
 }
+.orange{
+  color: #E95A08;
+}
+.light-grey{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* LATEST DEAL SECTION */
 .bloom-plant-container{
   background: linear-gradient(to top , rgba(0, 0, 0, 0.4)) , url(../images/deal-bloom.png);
   background-repeat: no-repeat; 
@@ -43,6 +49,14 @@
 .zabo-plant-container{
   background: linear-gradient(to top , rgba(0, 0, 0, 0.4)) , url(../images/deal-zabo.png);
   background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
+
+/* NEWSLETTER SECTION STYLES */
+.newsletter-section{
+  background-image: url(../images/news-letter-bg.png);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
