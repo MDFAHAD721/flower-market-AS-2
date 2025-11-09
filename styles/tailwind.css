@@ -1,9 +1,6 @@
-@import "tailwindcss"
-
 /*  NOTO SERIF FONT  */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 .noto-serif-font {
   font-family: "Noto Serif", serif;
@@ -31,6 +28,27 @@
 }
 .light-grey{
   color: rgba(0, 0, 0, 0.5);
+}
+.common-headings{
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.common-descriptions{
+  text-align: center;
+  color:rgba(0, 0, 0, 0.5);
+}
+/*  FLOWER & PLANTS LOVER SECTION  */
+.img-container{
+  position: relative;
+}
+.rotating-img{
+  position: absolute;
+  height: 286px;
+  width: 286px;
+  top: -130px;
+  right: -100px;
+  animation: rotate360 10s linear infinite ;
 }
 
 /* LATEST DEAL SECTION */
@@ -60,3 +78,15 @@
   background-size: cover;
   background-position: center;
 }
+
+/* Keyframes for rotation */
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+  }
+    to {
+        transform: rotate(360deg);
+  }
+}
+
+@import "tailwindcss"
