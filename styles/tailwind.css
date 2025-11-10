@@ -23,6 +23,9 @@
 .black{
   color: #000000;
 }
+.secondary-black{
+  color: #111111;
+}
 .orange{
   color: #E95A08;
 }
@@ -38,6 +41,9 @@
   text-align: center;
   color:rgba(0, 0, 0, 0.5);
 }
+
+
+
 /*  FLOWER & PLANTS LOVER SECTION  */
 .img-container{
   position: relative;
