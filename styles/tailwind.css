@@ -32,6 +32,9 @@
 .light-grey{
   color: rgba(0, 0, 0, 0.5);
 }
+.secondary-grey{
+  color: #6B7280;
+}
 .common-headings{
   font-weight: bold;
   text-align: center;
