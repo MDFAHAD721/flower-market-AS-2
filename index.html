@@ -7,9 +7,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/tailwind.css">
+    <script src="https://kit.fontawesome.com/ada605e1a3.js" crossorigin="anonymous"></script>
     <title>FLOWER MARKET</title>
 </head>
 <body>
+    <header class="max-w-[1140px] mx-auto">
+        <!-- NAVBAR -->
+        <nav class="mt-[30px]">
+            <div class="flex items-center justify-between px-4 sm:px-6 lg:px-0">
+                <div>
+                    <img class="w-[63px] sm:w-full" src="images/logo.png" alt="">
+                </div>
+                <div>
+                   <div class="flex gap-12">
+                    <a class="thirdly-black font-bold hidden sm:block" href="">Home</a>
+                    <a class="thirdly-grey hidden sm:block" href="">Shop</a>
+                    <a class="thirdly-grey hidden sm:block" href="">About us</a>
+                    <a class="black" href=""><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a>
+                   </div>
+                </div>
+            </div>
+        </nav>
+        <!-- BANNER -->
+        <div class="flex flex-col-reverse lg:flex-row justify-between items-end pt-7 sm:pt-14 md:pt-[165px] ">
+            <div class="flex-1 px-4 sm:px-6 lg:px-0 mt-7 sm:mt-14 md:mt-0">
+                <h1 class="noto-serif-font text-2xl sm:text-[65px] font-bold black">ALWAYS <span class="orange">FRESH<br> FLOWERS</span></h1>
+                <p class="inter-font text-[14px] sm:text-[22px] light-grey mt-[13px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div>
+                <img src="images/hero-flower.png" alt="">
+            </div>
+        </div>
+    </header>
     <main>
         <!-- CARDS SECTION -->
         <section class="hidden">
@@ -227,8 +256,8 @@
           </div>
         </section>
     </main>
-    <footer>
-        <!-- FOOTER SECTION -->
+    <!-- FOOTER SECTION -->
+    <footer class="hidden">
         <div class="inter-font max-w-[1140px] mx-auto py-[50px] flex flex-col
         md:flex-row justify-between px-5 md:px-0">
             <div class="mb-5">

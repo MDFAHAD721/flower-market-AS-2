@@ -26,6 +26,9 @@
 .secondary-black{
   color: #111111;
 }
+.thirdly-black{
+  color: #252432;
+}
 .orange{
   color: #E95A08;
 }
@@ -34,6 +37,9 @@
 }
 .secondary-grey{
   color: #6B7280;
+}
+.thirdly-grey{
+  color: #8987A1;
 }
 .common-headings{
   font-weight: bold;
